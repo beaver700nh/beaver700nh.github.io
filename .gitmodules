@@ -1,0 +1,6 @@
+[submodule "mla"]
+	path = mla
+	url = https://github.com/beaver700nh/mla
+[submodule "two-wheel-robot"]
+	path = two-wheel-robot
+	url = https://github.com/beaver700nh/two-wheel-robot

@@ -1,0 +1,102 @@
+/*
+ * === Palette Sources ===
+ *   https://colorhunt.co/palette/222831393e46fd7014eeeeee
+ *   https://colorhunt.co/palette/3932324d45458d6262ed8d8d
+ *   https://colorhunt.co/palette/222831393e46ffd369eeeeee
+ *   https://colorhunt.co/palette/0f0e0e5412128b9a46eeeeee
+ *   https://colorhunt.co/palette/6e85b7b2c8dfc4d7e0f8f9d7
+ */
+
+:root {
+  --color-gray-dark: #222831;
+  --color-gray-med:  #393E46;
+  --color-gray-lite: #EEEEEE;
+  --color-red:       #8D6262;
+  --color-yellow:    #FFD369;
+  --color-green:     #8B9A46;
+  --color-blue:      #C4D7E0;
+}
+
+body {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 0px;
+  padding: 0px;
+  gap: 0px;
+  align-items: stretch;
+  background-color: var(--color-gray-dark);
+}
+
+#index-menu {
+  flex-shrink: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0px;
+  padding: 0px;
+  gap: 0px;
+  align-items: stretch;
+  border-bottom: 3px solid var(--color-gray-med);
+}
+
+#index-menu > span {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+#index-menu > span:hover {
+  background-color: var(--color-gray-med);
+}
+
+#index-menu > span > span.material-icons {
+  margin: 10px;
+  filter: invert() brightness(93%);  /* 93% is approximately #EEEEEE */
+}
+
+#index-main {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  justify-content: center;
+  padding: 20px;
+}
+
+#index-main-default {
+  flex-shrink: 1;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gray-med);
+  font-family: "Fira Mono", Inconsolata, Consolas, "Roboto Mono", monospace;
+  font-size: clamp(12pt, 10vw, 120pt);
+  letter-spacing: 5px;
+  user-select: none;
+}
+
+#index-main-default > span:hover {
+  color: var(--color-gray-lite);
+}
+
+#index-main-profile {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  justify-content: stretch;
+  display: none;  /* hidden by default */
+}
+
+#index-main-profile > iframe {
+  flex-grow: 1;
+}

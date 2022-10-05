@@ -7,7 +7,12 @@ function select_page(which) {
 
 function main() {
   $("#index-menu-home").click(() => select_page("default"));
-  $("#index-menu-person").click(() => select_page("profile"));
+
+  $("#index-menu-person").click(
+    () => {
+      window.location.href = "https://github.com/beaver700nh/";
+    }
+  );
 }
 
 $(document).ready(main);

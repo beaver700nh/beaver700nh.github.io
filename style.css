@@ -87,16 +87,3 @@ body {
 #index-main-default > span:hover {
   color: var(--color-gray-lite);
 }
-
-#index-main-profile {
-  flex-grow: 1;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: stretch;
-  justify-content: stretch;
-  display: none;  /* hidden by default */
-}
-
-#index-main-profile > iframe {
-  flex-grow: 1;
-}

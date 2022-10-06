@@ -22,10 +22,41 @@ function main() {
   /** Profile page **/
 
   $("#index-menu-person").click(
-    () => {
+    function () {
       window.location.href = "https://github.com/beaver700nh/";
     }
   );
+
+  /** Menu page **/
+
+  $("#index-menu-burger").click(() => select_page("menu"));
+
+  $("#index-main-menu .hier-expand").click(
+    function () {
+      $(this).siblings(".hier-nested").toggleClass("hier-nested-active");
+      $(this).toggleClass("hier-expanded");
+    }
+  );
+
+  /** About page **/
+
+  $("#index-main-menu-list-about").click(() => select_page("about"));
+
+  /** Account - GitHub page **/
+
+  $("#index-main-menu-list-accounts-gh").click(() => select_page("acc-gh"));
+
+  /** Account - REPLit page **/
+
+  $("#index-main-menu-list-accounts-repl").click(() => select_page("acc-repl"));
+
+  /** Submodule - MLA page **/
+
+  $("#index-main-menu-list-noteworthy-mla").click(() => select_page("subm-mla"));
+
+  /** Submodule - Robot page **/
+
+  $("#index-main-menu-list-noteworthy-twr").click(() => select_page("subm-twr"));
 }
 
 function homepage_click(event) {

@@ -85,5 +85,5 @@ body {
 }
 
 #index-main-default > span:hover {
-  color: var(--color-gray-lite);
+  color: var(--color-gray-lite) !important;
 }

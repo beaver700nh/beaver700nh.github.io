@@ -50,13 +50,17 @@ function main() {
 
   $("#index-main-menu-list-accounts-repl").click(() => select_page("acc-repl"));
 
-  /** Submodule - MLA page **/
+  /** Repo - EEPROMMER3 **/
 
-  $("#index-main-menu-list-noteworthy-mla").click(() => select_page("subm-mla"));
+  $("#index-main-menu-list-noteworthy-e3").click(() => select_page("repo-e3"));
 
-  /** Submodule - Robot page **/
+  /** Repo - MLA page **/
 
-  $("#index-main-menu-list-noteworthy-twr").click(() => select_page("subm-twr"));
+  $("#index-main-menu-list-noteworthy-mla").click(() => select_page("repo-mla"));
+
+  /** Repo - Robot page **/
+
+  $("#index-main-menu-list-noteworthy-twr").click(() => select_page("repo-twr"));
 }
 
 function homepage_click(event) {

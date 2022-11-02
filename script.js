@@ -61,6 +61,10 @@ function main() {
   /** Repo - Robot page **/
 
   $("#index-main-menu-list-noteworthy-twr").click(() => select_page("repo-twr"));
+
+  /** Repo - Metaballs page **/
+
+  $("#index-main-menu-list-noteworthy-mrsq").click(() => select_page("repo-mrsq"));
 }
 
 function homepage_click(event) {

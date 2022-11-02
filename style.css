@@ -292,3 +292,30 @@ body {
 #index-main-repo-twr > a:nth-child(2) {
   color: var(--color-gray-med);
 }
+
+#index-main-repo-mrsq {
+  flex-grow: 1;
+  /* display: flex; */
+  display: none;
+  flex-flow: column nowrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+#index-main-repo-mrsq > a {
+  flex-shrink: 1;
+  display: inline-block;
+  font-family: Roboto, Helvetica, Verdana, Arial, sans-serif;
+  font-size: 2em;
+  text-decoration: none;
+  user-select: none;
+}
+
+#index-main-repo-mrsq > a:nth-child(1) {
+  color: var(--color-gray-lite);
+}
+
+#index-main-repo-mrsq > a:nth-child(2) {
+  color: var(--color-gray-med);
+}

@@ -65,6 +65,10 @@ function main() {
   /** Repo - Metaballs page **/
 
   $("#index-main-menu-list-noteworthy-mrsq").click(() => select_page("repo-mrsq"));
+
+  /** Repo - Video player page **/
+
+  $("#index-main-menu-list-noteworthy-162v").click(() => select_page("repo-162v"));
 }
 
 function homepage_click(event) {

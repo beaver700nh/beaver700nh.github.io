@@ -319,3 +319,35 @@ body {
 #index-main-repo-mrsq > a:nth-child(2) {
   color: var(--color-gray-med);
 }
+
+#index-main-repo-162v {
+  flex-grow: 1;
+  /* display: flex; */
+  display: none;
+  flex-flow: column nowrap;
+  gap: 10px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+#index-main-repo-162v > iframe {
+  flex-grow: 1;
+}
+
+#index-main-repo-162v > a {
+  flex-shrink: 1;
+  display: inline-block;
+  font-family: Roboto, Helvetica, Verdana, Arial, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+}
+
+#index-main-repo-162v > a:nth-of-type(1) {
+  color: var(--color-gray-lite);
+}
+
+#index-main-repo-162v > a:nth-of-type(2) {
+  color: var(--color-gray-med);
+}

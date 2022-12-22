@@ -69,6 +69,10 @@ function main() {
   /** Repo - Video player page **/
 
   $("#index-main-menu-list-noteworthy-162v").click(() => select_page("repo-162v"));
+
+  /** Repo - MoReCAF page **/
+
+  $("#index-main-menu-list-noteworthy-caf").click(() => select_page("repo-caf"));
 }
 
 function homepage_click(event) {

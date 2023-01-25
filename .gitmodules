@@ -1,9 +1,3 @@
-[submodule "mla"]
-	path = mla
-	url = https://github.com/beaver700nh/mla
-[submodule "two-wheel-robot"]
-	path = two-wheel-robot
-	url = https://github.com/beaver700nh/two-wheel-robot
-[submodule "submodules/lcd162video"]
-	path = submodules/lcd162video
+[submodule "lcd162video"]
+	path = lcd162video
 	url = https://github.com/beaver700nh/lcd162video

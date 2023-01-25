@@ -1,0 +1,9 @@
+[submodule "submodules/lcd162video"]
+	path = submodules/lcd162video
+	url = https://github.com/beaver700nh/lcd162video
+[submodule "submodules/mla"]
+	path = submodules/mla
+	url = https://github.com/beaver700nh/mla
+[submodule "submodules/two-wheel-robot"]
+	path = submodules/two-wheel-robot
+	url = https://github.com/beaver700nh/two-wheel-robot
